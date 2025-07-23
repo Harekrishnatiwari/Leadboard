@@ -1,0 +1,155 @@
+/* Background and layout */
+.App {
+  background: #ffffff;
+  min-height: 100vh;
+  color: #fff;
+}
+
+h1,
+h5 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+
+/* Cards & leaderboard */
+.card {
+  background-color: #b0c9e8;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+.card-header {
+  background: linear-gradient(90deg, #4facfe 0%, #00f2fe 100%);
+  color: white !important;
+  border-radius: 0.5rem 0.5rem 0 0 !important;
+  border: none;
+}
+
+.table-dark th {
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  border: none;
+}
+
+/* Buttons */
+.btn-primary {
+  background: linear-gradient(90deg, #4facfe 0%, #00f2fe 100%);
+  border: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(90deg, #00f2fe 0%, #4facfe 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.btn-success {
+  background: linear-gradient(90deg, #56ab2f 0%, #a8e6cf 100%);
+  border: none;
+  font-weight: 600;
+}
+
+.btn-success:hover {
+  background: linear-gradient(90deg, #a8e6cf 0%, #56ab2f 100%);
+}
+
+/* Badges */
+.badge {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* UserList and History section styling */
+.user-list .list-group-item,
+.claim-history .list-group-item {
+  background: #f9f9f9;
+  border: none;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+  color: #333;
+}
+
+.user-list .list-group-item:hover,
+.claim-history .list-group-item:hover {
+  background-color: #ececec;
+}
+
+/* Toastify container */
+.Toastify__toast--success {
+  background: #4caf50;
+}
+.Toastify__toast--error {
+  background: #f44336;
+}
+.Toastify__toast--warning {
+  background: #ff9800;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container-fluid {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .col-lg-4,
+  .col-lg-5,
+  .col-lg-3 {
+    margin-bottom: 2rem;
+  }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ddd;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(90deg, #764ba2 0%, #667eea 100%);
+}
+   
+
+.top-card.gold {
+  background: #ffe259;
+  color: #0f0e0e;
+}
+
+.top-card.silver {
+  background: #a7a9af;
+  color: #151414;
+}
+
+.top-card.bronze {
+  background: #fdba74;;
+  color: #0f0f0f;
+}
+
+.top-card h5,
+.top-card h6,
+.top-card p {
+  margin: 2;
+  padding: 2;
+  font-weight: bold;
+}
